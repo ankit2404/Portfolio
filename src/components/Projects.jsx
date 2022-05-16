@@ -1,13 +1,13 @@
 import React from "react";
-
+import Slider from "./Slider";
 function Projects() {
   return (
-    <section class="portfolio section" id="projects">
-      <h2 class="section_title">Projects</h2>
-      <span class="section_subtitle">Most recent work</span>
-
-      <div class="portfolio_container container swiper-container swiper mySwiper">
-        {/* <div class="swiper-wrapper">
+    <section className="portfolio section" id="projects">
+      <h2 className="section_title">Projects</h2>
+      <span className="section_subtitle">Most recent work</span>
+      {/* <div className="portfolio_container container swiper-container swiper mySwiper"> */}
+      <Slider />
+      {/* <div class="swiper-wrapper">
           <div class="portfolio_content grid swiper-slide">
             <img
               src="./assets/img/portfolio-preview.gif"
@@ -64,7 +64,7 @@ function Projects() {
 
           <div class="swiper-pagination"></div>
         </div> */}
-      </div>
+      {/* </div> */}
     </section>
   );
 }
