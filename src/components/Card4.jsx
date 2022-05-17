@@ -1,15 +1,15 @@
 import React from "react";
-import Img1 from "../style/images/img1.PNG";
+import Img4 from "../style/images/img4.PNG";
 import { Icon } from "@iconify/react";
 import "../style/Main.css";
-function Card1() {
+function Card4() {
   return (
     <div className="card-cont">
       <div className="left-cont">
-        <img src={Img1} alt="" />
+        <img src={Img4} alt="" />
       </div>
       <div className="right-cont">
-        <h1>Natours</h1>
+        <h3>Github Finder</h3>
         <div className="paragraphs">
           <p>
             <Icon
@@ -18,7 +18,7 @@ function Card1() {
               height="20"
               className="pointerIcon"
             />{" "}
-            A web app with full authentication functionality using jwt.
+            A web app where you can search github users by their name
           </p>
           <p>
             <Icon
@@ -27,7 +27,7 @@ function Card1() {
               height="20"
               className="pointerIcon"
             />{" "}
-            Using stripe using webhooks to avoid adding tour without payment
+            Implemted a github Api
           </p>
           <p>
             <Icon
@@ -36,28 +36,19 @@ function Card1() {
               height="20"
               className="pointerIcon"
             />{" "}
-            User can update username, photo, email, and password
-          </p>
-          <p>
-            <Icon
-              icon="fa-solid:hand-point-right"
-              width="20"
-              height="20"
-              className="pointerIcon"
-            />{" "}
-            User can see all your bought tours at the same place
+            User can show all the public repos of any user
           </p>
         </div>
         <div className="icons-div">
           <a
-            href="https://github.com/ankit2404/natours"
+            href="https://github.com/ankit2404/github-finder"
             target="_blank"
             rel="noreferrer"
           >
             <Icon icon="akar-icons:github-fill" className="gitIcons" />
           </a>
           <a
-            href="https://natours-ankit.herokuapp.com/"
+            href="https://github-finder-fawn-tau.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -69,4 +60,4 @@ function Card1() {
   );
 }
 
-export default Card1;
+export default Card4;

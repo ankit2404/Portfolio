@@ -4,9 +4,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import Card2 from "./Card2";
+import Card1 from "./Card1";
+import Card3 from "./Card3";
+import Card4 from "./Card4";
 import Img1 from "../style/images/img1.PNG";
-// import Img2 from "../style/images/img2.PNG";
+import Img4 from "../style/images/img4.PNG";
+import Img3 from "../style/images/Img3.PNG";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
 import "../style/Slider.css";
@@ -18,7 +21,7 @@ function Slider() {
         style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
-          height: "70vh",
+          height: "65vh",
           width: "70%",
           marginBottom: "10px",
         }}
@@ -32,13 +35,13 @@ function Slider() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <Card2 />
+          <Card1 />
         </SwiperSlide>
         <SwiperSlide>
-          <img alt="okk" src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <Card3 />
         </SwiperSlide>
         <SwiperSlide>
-          <img alt="okk" src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <Card4 />
         </SwiperSlide>
       </Swiper>
       <Swiper
@@ -56,10 +59,10 @@ function Slider() {
           <img alt="okk" src={Img1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img alt="okk" src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img alt="okk" src={Img3} />
         </SwiperSlide>
         <SwiperSlide>
-          <img alt="okk" src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img alt="okk" src={Img4} />
         </SwiperSlide>
       </Swiper>
     </>

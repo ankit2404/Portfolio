@@ -4,7 +4,7 @@ import Qualification from "../components/Qualification";
 import Skills from "../components/Skills";
 import NavbarComp from "../components/NavbarComp";
 import FooterComp from "../components/FooterComp";
-// import Projects from "../components/Projects";
+import Projects from "../components/Projects";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { useContext } from "react";
 import AppContext from "../context/AppContext";
@@ -21,7 +21,7 @@ function Main() {
         <HomeComp />
         <Skills />
         <Qualification />
-        {/* <Projects /> */}
+        <Projects />
         <Contact />
         <FooterComp />
       </div>
