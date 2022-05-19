@@ -1,70 +1,19 @@
 import React from "react";
-import Slider from "./Slider";
+// import Slider from "./Slider";
+import Proj1 from "./Proj1";
+import Proj2 from "./Proj2";
+import Proj3 from "./Proj3";
+
 function Projects() {
   return (
     <section className="portfolio section" id="projects">
       <h2 className="section_title">Projects</h2>
-      <span className="section_subtitle">Most recent work</span>
-      {/* <div className="portfolio_container container swiper-container swiper mySwiper"> */}
-      <Slider />
-      {/* <div class="swiper-wrapper">
-          <div class="portfolio_content grid swiper-slide">
-            <img
-              src="./assets/img/portfolio-preview.gif"
-              alt=""
-              class="portfolio_img"
-            />
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">Personal Portfolio Website</h3>
-              <p class="portfolio_description">
-                My Personal Portfolio Website made using only HTML, CSS and JS
-                with a clean and minimal UI.
-              </p>
-              <a
-                href="/"
-                class="button button-flex button-small portfolio_button"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="portfolio_content grid swiper-slide">
-            <img
-              src="https://media2.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e47zacfktw3feiaov7xnr2l6fkx2xtqqz2g8h83st8h&rid=giphy.gif&ct=g"
-              alt=""
-              class="portfolio_img"
-            />
-
-            <div class="portfolio_data">
-              <h3 class="portfolio_title">All projects in GitHub List</h3>
-              <p class="portfolio_description"></p>
-              <a
-                href="https://subham-maity.github.io/Projectlist/"
-                class="button button-flex button-small portfolio_button"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check out
-                <i class="uil uil-arrow-right button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-
-          <div class="swiper-pagination"></div>
-        </div> */}
-      {/* </div> */}
+      <span className="section_subtitle" style={{ paddingBottom: "25px" }}>
+        Most recent work
+      </span>
+      <Proj1 />
+      <Proj2 />
+      <Proj3  />
     </section>
   );
 }
