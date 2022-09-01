@@ -3,6 +3,7 @@ import React from "react";
 import Proj1 from "./Proj1";
 import Proj2 from "./Proj2";
 import Proj3 from "./Proj3";
+import Proj4 from "./Proj4";
 
 function Projects() {
   return (
@@ -11,9 +12,10 @@ function Projects() {
       <span className="section_subtitle" style={{ paddingBottom: "25px" }}>
         Most recent work
       </span>
+      <Proj4 />
       <Proj1 />
       <Proj2 />
-      <Proj3  />
+      <Proj3 />
     </section>
   );
 }

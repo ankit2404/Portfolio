@@ -8,80 +8,78 @@ function Contact() {
         Want to connect? My inbox is always open!
       </span>
 
-      <div className="contact_container container grid">
-        <div>
-          <a
-            href="mailto:mittalankit2404@gmail.com"
-            target="_blank"
-            rel="noreferrer"
+      <div className="contact_container container ">
+        <div style={{ width: "100%" }}>
+          <div
+            className="icon_flex"
+            style={{
+              display: "flex",
+            }}
           >
-            <div className="contact_info">
-              <i className="uil uil-envelope-alt contact_icon"></i>
-              <div>
-                <h3 className="contact_title">Email</h3>
-                <span className="contact_subtitle">
-                  mittalankit2404@gmail.com
-                </span>
+            <a
+              href="mailto:mittalankit2404@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="contact_first"
+            >
+              <div className="contact_info">
+                <i className="uil uil-envelope-alt contact_icon"></i>
+                <div>
+                  <h3 className="contact_title">Email</h3>
+                  <span className="contact_subtitle">
+                    mittalankit2404@gmail.com
+                  </span>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/ankit-mittal-2ab9761b2/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="contact_info">
+            <a
+              href="https://www.linkedin.com/in/ankit-mittal-2ab9761b2/"
+              target="_blank"
+              rel="noreferrer"
+              className="link_spacing"
+            >
+              <div className="contact_info">
+                <Icon
+                  icon="akar-icons:linkedin-fill"
+                  width="30"
+                  height="30"
+                  inline={true}
+                  className="contact_icon"
+                />
+                <div>
+                  <h3 className="contact_title">Linkedin</h3>
+                  <span className="contact_subtitle">Connect With Me</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div style={{ display: "flex" }} className="icon_flex">
+            <div className="contact_info contact_first">
               <Icon
-                icon="akar-icons:linkedin-fill"
+                icon="bi:phone"
                 width="30"
                 height="30"
                 inline={true}
                 className="contact_icon"
               />
               <div>
-                <h3 className="contact_title">Linkedin</h3>
-                <span className="contact_subtitle">Connect With Me</span>
+                <h3 className="contact_title">Phone</h3>
+                <span className="contact_subtitle">9810596332</span>
               </div>
             </div>
-          </a>
 
-          {/* <a
-            href="https://twitter.com/code_xam"
-            target="_blank"
-            rel="noreferrer"
-          > */}
-          <div className="contact_info">
-            <Icon
-              icon="bi:phone"
-              width="30"
-              height="30"
-              inline={true}
-              className="contact_icon"
-            />
-            <div>
-              <h3 className="contact_title">Phone</h3>
-              <span className="contact_subtitle">9810596332</span>
+            <div className="contact_info link_spacing">
+              <i className="uil uil-location-point contact_icon"></i>
+              <div>
+                <h3 className="contact_title">Location</h3>
+                <span className="contact_subtitle">Delhi, India</span>
+              </div>
             </div>
           </div>
-          {/* </a> */}
-
-          {/* <a
-            href="#"
-            target="_blank"
-            rel="noreferrer"
-          > */}
-          <div className="contact_info">
-            <i className="uil uil-location-point contact_icon"></i>
-            <div>
-              <h3 className="contact_title">Location</h3>
-              <span className="contact_subtitle">Delhi, India</span>
-            </div>
-          </div>
-          {/* </a> */}
         </div>
 
-        <form
+        {/* <form
           action="https://formspree.io/f/xyyozeaq"
           className="contact_form grid"
           id="contact-form"
@@ -144,7 +142,7 @@ function Contact() {
               <i className="uil uil-message button_icon"></i>
             </button>
           </div>
-        </form>
+        </form> */}
       </div>
     </section>
   );
