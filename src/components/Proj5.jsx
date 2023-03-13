@@ -1,32 +1,25 @@
 import React from "react";
 import "../style/Proj.css";
-import Img1 from "../style/images/Img3.PNG";
+import codechef from "../style/images/codechef.jpg";
 import { Icon } from "@iconify/react";
 import classes from "../style/project.module.css";
-function Proj1() {
+
+const Proj5 = () => {
   return (
     <div className={`${classes["start_div"]}`}>
-      <div className={`${classes["content_div"]}`}>
-        <img
-          src={Img1}
-          alt="Proj1"
-          className={`${classes["swiper_image_class"]}`}
-        />
-
-        <div
-          className={`${classes["content_des"]}`}
-          style={{ marginLeft: "5%" }}
-        >
-          <h3 className={`${classes["slider_header"]}`}>House Marketplace</h3>
+      <div className={`${classes["content_div"]} ${classes["opposite_div"]}`}>
+        <div className={`${classes["content_des"]}`}>
+          <h3 className={`${classes["slider_header"]}`}>Codechef Clone</h3>
 
           <p className={`${classes["slider_para"]}`}>
-            A web app with full google authentication. User can send mail
-            directly to the house owner using web app. User can add their house
-            for rent or sale
+            A web app where the user can solve data structure and algorithms
+            projects based on category. Automated testing of participant
+            solutions with instant feedback. User can run the java code on the
+            server and also able to submit the code on the server
           </p>
           <div>
             <a
-              href="https://friendly-kepler-54c675.netlify.app/"
+              href="https://github.com/ankit2404/Codechef-Clone"
               target="blank"
             >
               <button
@@ -42,7 +35,7 @@ function Proj1() {
               </button>
             </a>
             <a
-              href="https://github.com/ankit2404/HouseMarketPlace"
+              href="https://github.com/ankit2404/Codechef-Clone"
               target="blank"
               className={`${classes["second_link"]}`}
             >
@@ -60,9 +53,14 @@ function Proj1() {
             </a>
           </div>
         </div>
+        <img
+          src={codechef}
+          alt="Proj1"
+          className={`${classes["swiper_image_class"]}`}
+        />
       </div>
     </div>
   );
-}
+};
 
-export default Proj1;
+export default Proj5;

@@ -69,13 +69,14 @@ function HomeComp() {
               <div className="home_data">
                 <h1 className="home_title">Hi, Ankit here.</h1>
                 <h3 className="home_subtitle">
-                  I am <span className="type"> Full Stack</span> Developer
+                  <span className="type"> Full Stack</span> Developer
                 </h3>
 
                 <p className="home_description">
-                  I love working with web technologies and building web apps.
-                  I'm passionate about learning new skills that help me become a
-                  better developer
+                  I am a full stack developer with experience in building web
+                  applications using technologies such as React.js, Node.js, and
+                  MongoDB. Proficient in Data Structures & Algorithms, Java, and
+                  JavaScript.
                 </p>
                 <a
                   download=""

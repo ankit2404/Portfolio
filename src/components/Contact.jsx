@@ -34,7 +34,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/ankit-mittal-2ab9761b2/"
+              href="https://www.linkedin.com/in/ankitmittal2404/"
               target="_blank"
               rel="noreferrer"
               className="link_spacing"
@@ -65,7 +65,7 @@ function Contact() {
               />
               <div>
                 <h3 className="contact_title">Phone</h3>
-                <span className="contact_subtitle">9810596332</span>
+                <span className="contact_subtitle">+91 9810596332</span>
               </div>
             </div>
 

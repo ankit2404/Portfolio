@@ -106,7 +106,7 @@ const Proj4 = () => {
             beautiful UI with completely responsive for mobile and tablets
           </p>
           <div>
-            <a href="https://angelshopapp.herokuapp.com/" target="blank">
+            <a href="https://defiant-bandanna-hare.cyclic.app/" target="blank">
               <button
                 className={`${classes["btn"]} ${classes["btn-primary"]}`}
                 type="button"

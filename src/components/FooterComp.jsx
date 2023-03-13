@@ -32,7 +32,7 @@ function FooterComp() {
 
             <div className="footer_socials">
               <a
-                href="https://www.linkedin.com/in/ankit-mittal-2ab9761b2/"
+                href="https://www.linkedin.com/in/ankitmittal2404/"
                 target="_blank"
                 className="footer_social"
                 rel="noreferrer"
