@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import myImage from "../style/images/pic pass.jpg";
+// import myImage from "../style/images/pic pass.jpg";
 import ankitImage from "../style/images/Ankit-profile.jpg";
 import Resume from "../style/images/Resume.pdf";
 function HomeComp() {

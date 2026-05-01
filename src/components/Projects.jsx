@@ -1,7 +1,7 @@
 import React from "react";
 // import Slider from "./Slider";
-import Proj1 from "./Proj1";
-import Proj2 from "./Proj2";
+// import Proj1 from "./Proj1";
+// import Proj2 from "./Proj2";
 import Proj3 from "./Proj3";
 import Proj4 from "./Proj4";
 import Proj5 from "./Proj5";
