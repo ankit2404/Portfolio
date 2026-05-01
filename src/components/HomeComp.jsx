@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react";
 import myImage from "../style/images/pic pass.jpg";
+import ankitImage from "../style/images/Ankit-profile.jpg";
 import Resume from "../style/images/Resume.pdf";
 function HomeComp() {
   return (
@@ -35,16 +36,16 @@ function HomeComp() {
                 >
                   <Icon icon="cib:leetcode" inline={true} />
                 </a>
-                <a
+                {/* <a
                   href="https://www.codechef.com/users/ankit24042001"
                   className="home_social-icon"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Icon icon="simple-icons:codechef" inline={true} />
-                </a>
+                </a> */}
                 <a
-                  href="mailto:mittalankit2404@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&to=mittalankit2404@gmail.com"
                   className="home_social-icon"
                   target="_blank"
                   rel="noreferrer"
@@ -55,7 +56,7 @@ function HomeComp() {
 
               <div className="home_img">
                 <img
-                  src={myImage}
+                  src={ankitImage}
                   alt=""
                   style={{
                     borderRadius: "50%",
@@ -74,9 +75,9 @@ function HomeComp() {
 
                 <p className="home_description">
                   I am a full stack developer with experience in building web
-                  applications using technologies such as React.js, Node.js, and
-                  MongoDB. Proficient in Data Structures & Algorithms, Java, and
-                  JavaScript.
+                  applications using technologies such as React.js, Node.js, JavaScript, Java, Scala, PostgreSQL and
+                  MongoDB. Proficient in Data Structures & Algorithms in Java.
+                  
                 </p>
                 <a
                   download=""

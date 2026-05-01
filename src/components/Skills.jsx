@@ -3,7 +3,8 @@ import { Icon } from "@iconify/react";
 function Skills() {
   const [skill1, setSkill1] = useState(true);
   const [skill2, setSkill2] = useState(true);
-  const [skill3, setSkill3] = useState(false);
+  const [skill3, setSkill3] = useState(true);
+  const [skill4, setSkill4] = useState(true);
 
   const click1 = () => {
     setSkill1(!skill1);
@@ -13,6 +14,9 @@ function Skills() {
   };
   const click3 = () => {
     setSkill3(!skill3);
+  };
+  const click4 = () => {
+    setSkill4(!skill4);
   };
 
   return (
@@ -53,12 +57,12 @@ function Skills() {
               <div className="skills_data">
                 <div className="skills_titles">
                   <Icon
-                    icon="akar-icons:python-fill"
+                    icon="simple-icons:scala"
                     width="30"
                     height="30"
                     inline={true}
                   />
-                  <h3 className="skills_name">Python</h3>
+                  <h3 className="skills_name">Scala</h3>
                 </div>
                 <div className="skills_bar"></div>
               </div>
@@ -176,15 +180,16 @@ function Skills() {
               <div className="skills_data">
                 <div className="skills_titles">
                   <Icon
-                    icon="logos:django"
+                    icon="simple-icons:apachespark"
                     width="30"
                     height="30"
                     inline={true}
                   />
-                  <h3 className="skills_name">Django</h3>
+                  <h3 className="skills_name">Apache Spark</h3>
                 </div>
                 <div className="skills_bar"></div>
               </div>
+
               <div className="skills_data">
                 <div className="skills_titles">
                   <Icon
@@ -197,15 +202,16 @@ function Skills() {
                 </div>
                 <div className="skills_bar"></div>
               </div>
+
               <div className="skills_data">
                 <div className="skills_titles">
                   <Icon
-                    icon="vscode-icons:file-type-appscript"
+                    icon="simple-icons:googlebigquery"
                     width="30"
                     height="30"
                     inline={true}
                   />
-                  <h3 className="skills_name">Google Appscript</h3>
+                  <h3 className="skills_name">BigQuery</h3>
                 </div>
                 <div className="skills_bar"></div>
               </div>
@@ -218,9 +224,9 @@ function Skills() {
             <i className="uil uil-wrench skills_icon"></i>
 
             <div>
-              <h1 className="skills_title">Database & Other Tools</h1>
+              <h1 className="skills_title">Cloud and Databases</h1>
               <span className="skills_subtitle">
-                Tools that I know and use on a daily basis
+                Cloud that I know and use on a daily basis
               </span>
             </div>
 
@@ -228,6 +234,77 @@ function Skills() {
             {skill3 && <i className="uil uil-angle-up skills_arrow"></i>}
           </div>
           {skill3 && (
+            <div className="skills_list grid">
+
+              <div className="skills_data">
+                <div className="skills_titles">
+                  <Icon
+                    icon="simple-icons:googlecloud"
+                    width="30"
+                    height="30"
+                    inline={true}
+                  />
+                  <h3 className="skills_name">Google Cloud</h3>
+                </div>
+                <div className="skills_bar"></div>
+              </div>
+
+              <div className="skills_data">
+                <div className="skills_titles">
+                  <Icon
+                    icon="cib:firebase"
+                    width="30"
+                    height="30"
+                    inline={true}
+                  />
+                  <h3 className="skills_name">Firebase</h3>
+                </div>
+                <div className="skills_bar"></div>
+              </div>
+
+              <div className="skills_data">
+                <div className="skills_titles">
+                  <Icon
+                    icon="bxl:mongodb"
+                    width="30"
+                    height="30"
+                    inline={true}
+                  />
+                  <h3 className="skills_name">Mongodb</h3>
+                </div>
+                <div className="skills_bar"></div>
+              </div>
+
+              <div className="skills_data">
+                <div className="skills_titles">
+                  <Icon
+                    icon="simple-icons:postgresql"
+                    width="30"
+                    height="30"
+                    inline={true}
+                  />
+                  <h3 className="skills_name">PostgreSQL</h3>
+                </div>
+                <div className="skills_bar"></div>
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="skill skills_content">
+          <div className="skills_header" onClick={click4}>
+            <i className="uil uil-brackets-curly skills_icon"></i>
+
+            <div>
+              <h1 className="skills_title">Developer Tools</h1>
+              <span className="skills_subtitle">
+                Tools for Developers I have been using
+              </span>
+            </div>
+
+            {!skill4 && <i className="uil uil-angle-down skills_arrow"></i>}
+            {skill4 && <i className="uil uil-angle-up skills_arrow"></i>}
+          </div>
+          {skill4 && (
             <div className="skills_list grid">
               <div className="skills_data">
                 <div className="skills_titles">
@@ -263,20 +340,7 @@ function Skills() {
                 <div className="skills_bar"></div>
               </div>
 
-              <div className="skills_data">
-                <div className="skills_titles">
-                  <Icon
-                    icon="bxl:mongodb"
-                    width="30"
-                    height="30"
-                    inline={true}
-                  />
-                  <h3 className="skills_name">Mongodb</h3>
-                </div>
-                <div className="skills_bar"></div>
-              </div>
-
-              <div className="skills_data">
+               <div className="skills_data">
                 <div className="skills_titles">
                   <Icon
                     icon="ci:adobe-xd"
@@ -288,6 +352,7 @@ function Skills() {
                 </div>
                 <div className="skills_bar"></div>
               </div>
+
             </div>
           )}
         </div>

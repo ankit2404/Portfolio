@@ -16,9 +16,45 @@ function Qualification() {
             {/* first one */}
             <div className="qualification_data">
               <div>
-                <h3 className="qualification_title">Hospito</h3>
+                <h3 className="qualification_title">Transunion</h3>
+                <span className="qualification_subtitle">
+                  Software Developer
+                </span>
+                <div className="qualification_calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  Dec 2023 - Present
+                </div>
+              </div>
+              <div>
+                <span className="qualification_circle"></span>
+                <span className="qualification_line"></span>
+              </div>
+            </div>
+            {/* second one */}
+            <div className="qualification_data">
+              <div></div>
+
+              <div>
+                <span className="qualification_circle"></span>
+                <span className="qualification_line"></span>
+              </div>
+              <div>
+                <h3 className="qualification_title">BarRaiser</h3>
                 <span className="qualification_subtitle">
                   Frontend Developer
+                </span>
+                <div className="qualification_calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  July 2023 - Nov 2023
+                </div>
+              </div>
+            </div>
+            {/* first one */}
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title">Hospito</h3>
+                <span className="qualification_subtitle">
+                  Frontend Developer Intern
                 </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>
@@ -41,7 +77,7 @@ function Qualification() {
               <div>
                 <h3 className="qualification_title">Frendy</h3>
                 <span className="qualification_subtitle">
-                  Full Stack Developer
+                  Full Stack Developer Intern
                 </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>
@@ -55,7 +91,7 @@ function Qualification() {
               <div>
                 <h3 className="qualification_title">Cerebry</h3>
                 <span className="qualification_subtitle">
-                  AI Software Developer
+                  AI Software Developer Intern
                 </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>
@@ -78,7 +114,7 @@ function Qualification() {
               <div>
                 <h3 className="qualification_title">CEOITBOX(TNS)</h3>
                 <span className="qualification_subtitle">
-                  Javascript Developer
+                  Javascript Developer Intern
                 </span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt"></i>

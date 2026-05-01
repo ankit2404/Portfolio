@@ -73,7 +73,7 @@ function Contact() {
               <i className="uil uil-location-point contact_icon"></i>
               <div>
                 <h3 className="contact_title">Location</h3>
-                <span className="contact_subtitle">Delhi, India</span>
+                <span className="contact_subtitle">Bengaluru, India</span>
               </div>
             </div>
           </div>

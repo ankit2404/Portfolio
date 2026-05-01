@@ -9,7 +9,7 @@ function FooterComp() {
           <div className="footer_container container grid">
             <div>
               <h1 className="footer_title">Ankit Mittal</h1>
-              <span className="footer_subtitle">Developer</span>
+              <span className="footer_subtitle">Software Developer</span>
             </div>
 
             <ul className="footer_links">

@@ -1,11 +1,10 @@
 import React from "react";
 import "../style/Proj.css";
-import Img1 from "../style/images/img5.PNG";
+import Img1 from "../style/images/Proj6.PNG";
 import { Icon } from "@iconify/react";
 import classes from "../style/project.module.css";
 
-
-const Proj4 = () => {
+const Proj6 = () => {
   return (
     <div className={`${classes["start_div"]}`}>
       <div className={`${classes["content_div"]}`}>
@@ -19,16 +18,17 @@ const Proj4 = () => {
           className={`${classes["content_des"]}`}
           style={{ marginLeft: "5%" }}
         >
-          <h3 className={`${classes["slider_header"]}`}>AngelShop</h3>
+          <h3 className={`${classes["slider_header"]}`}>Quickparamarsh</h3>
 
           <p className={`${classes["slider_para"]}`}>
-            A web app with full authentication functionality using jwt. Used
-            Pypal api for payment.Used NodeMailer for sending email. It have
-            Complete admin side to manage user, orders, products. It has
-            beautiful UI with completely responsive for mobile and tablets
+            At Paramarsh Software Development Pvt Ltd, we are dedicated to
+            revolutionizing the healthcare industry through innovative software
+            solutions. With a focus on online consultation for doctors, we
+            strive to bridge the gap between medical professionals and patients,
+            making healthcare accessible and convenient for all.
           </p>
           <div>
-            <a href="https://angelshop.onrender.com/" target="blank">
+            <a href="https://www.quickparamarsh.com/" target="blank">
               <button
                 className={`${classes["btn"]} ${classes["btn-primary"]}`}
                 type="button"
@@ -65,4 +65,4 @@ const Proj4 = () => {
   );
 };
 
-export default Proj4;
+export default Proj6;

@@ -5,6 +5,7 @@ import Proj2 from "./Proj2";
 import Proj3 from "./Proj3";
 import Proj4 from "./Proj4";
 import Proj5 from "./Proj5";
+import Proj6 from "./Proj6";
 
 function Projects() {
   return (
@@ -13,11 +14,12 @@ function Projects() {
       <span className="section_subtitle" style={{ paddingBottom: "25px" }}>
         Most recent work
       </span>
-      <Proj4 />
+      <Proj6/>
       <Proj5 />
-      <Proj1 />
+      <Proj4 />
+      {/* <Proj1 /> */}
       <Proj3 />
-      <Proj2 />
+      {/* <Proj2 /> */}
     </section>
   );
 }
