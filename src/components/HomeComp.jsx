@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
-// import myImage from "../style/images/pic pass.jpg";
-import ankitImage from "../style/images/Ankit-profile.jpg";
-import Resume from "../style/images/Resume.pdf";
+import myImage from "../style/images/Ankit_2_pic.png";
+// import ankitImage from "../style/images/Ankit-profile.jpg";
+import Resume from "../style/images/Ankit_Resume.pdf";
 function HomeComp() {
   return (
     <div>
@@ -56,7 +56,7 @@ function HomeComp() {
 
               <div className="home_img">
                 <img
-                  src={ankitImage}
+                  src={myImage}
                   alt=""
                   style={{
                     borderRadius: "50%",
@@ -70,14 +70,11 @@ function HomeComp() {
               <div className="home_data">
                 <h1 className="home_title">Hi, Ankit here.</h1>
                 <h3 className="home_subtitle">
-                  <span className="type"> Full Stack</span> Developer
+                  <span className="type"> Software</span> Developer
                 </h3>
 
                 <p className="home_description">
-                  I am a full stack developer with experience in building web
-                  applications using technologies such as React.js, Node.js, JavaScript, Java, Scala, PostgreSQL and
-                  MongoDB. Proficient in Data Structures & Algorithms in Java.
-                  
+                I am a Software Engineer with 4+ years of experience designing and developing scalable applications across Frontend, Full Stack, and Data Engineering. Experienced in React, TypeScript, Node.js, Spark, Scala, and Google Cloud Platform, building reliable production systems that prioritize performance, maintainability, and real-world business impact.                  
                 </p>
                 <a
                   download=""
